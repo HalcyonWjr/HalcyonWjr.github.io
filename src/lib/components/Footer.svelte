@@ -1,5 +1,5 @@
 <footer>
-    <p>&copy; 2024 Jinrui Wang. All rights reserved.</p>
+    <p>&copy; 2024 Jinrui Wang. All rights reserved. Test</p>
 </footer>
 
 
