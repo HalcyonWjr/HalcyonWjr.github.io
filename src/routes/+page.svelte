@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import '../app.css';
+    import '@fortawesome/fontawesome-free/css/all.css';
+
+    import Main from '$lib/components/main.svelte'
+</script>
+
+
+<Main />
