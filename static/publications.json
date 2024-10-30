@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Pieces of Peace: Women and Gender in Peace Agreements",
+        "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
+        "conference": {
+          "name": "VISAP 24'",
+          "type": "Pictorial+Exhibition",
+          "event": "The VIS Arts Program (VISAP)",
+          "location": "Tampa, USA",
+          "year": 2024
+        },
+        "links": {
+          "paper": "/long2024peace.pdf"
+        }
+    },
+
+    {
+        "title": "Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration",
+        "authors": "Jinrui Wang, Xinhuan Shu, Benjamin Bach, Uta Hinrichs",
+        "conference": {
+          "name": "VIS 24'",
+          "type": "",
+          "event": "IEEE Transactions on Visualization and Computer Graphics. 2024. (IEEE VIS)",
+          "location": "Tampa, USA",
+          "year": 2024
+        },
+        "links": {
+          "paper": "https://arxiv.org/pdf/2408.07483",
+          "website": "https://vis-atlas.github.io"
+        }
+    },
+
+    {
+      "title": "Show Me My Users: A Dashboard Visualizing User Interaction Logs",
+      "authors": "Jinrui Wang, Mashael AlKadi, Benjamin Bach",
+      "conference": {
+        "name": "VIS 23'",
+        "type": "short paper",
+        "event": "IEEE Visualization and Visual Analytics (VIS)",
+        "location": "Melbourne, Australia",
+        "year": 2023
+      },
+      "links": {
+        "paper": "https://www.computer.org/csdl/proceedings-article/vis/2023/255700a156/1T3cP4m2E3m",
+        "github": "https://github.com/HalcyonWjr/Vistorian_Dashboard",
+        "demo": "https://halcyonwjr.github.io/Vistorian_Dashboard/"
+      }
+    }
+  ]
+  
