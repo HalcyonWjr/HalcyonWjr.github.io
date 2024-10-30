@@ -1,26 +1,78 @@
 <script>
-    import SectionTitle from './SectionTitle.svelte';
-  </script>
-  
-  <section id="publications">
-    <SectionTitle title="Publication" />
+  import { onMount } from 'svelte';
+  import SectionTitle from './SectionTitle.svelte';
 
-    <div>
-      <p class="paper-title">Show Me My Users: A Dashboard Visualizing User Interaction Logs</p>
-      <p><span class="author-emphasis">Jinrui Wang</span>, Mashael AlKadi, Benjamin Bach</p>
-      <div class="source">
-        <p><span class="conference-name">VIS 23'</span><span class="paper-type"> (short paper)</span> IEEE Visualization and Visual Analytics (VIS), Melbourne, Australia,  2023</p>
-      </div>
-      <div>
-        <a class="paper-link" href="https://www.computer.org/csdl/proceedings-article/vis/2023/255700a156/1T3cP4m2E3m" target="_blank">[ paper ]</a>
-        <a class="paper-link" href="https://github.com/HalcyonWjr/Vistorian_Dashboard" target="_blank">[ github ]</a>
-        <a class="paper-link" href="https://halcyonwjr.github.io/Vistorian_Dashboard/" target="_blank">[ live demo ]</a>
-      </div>
-    </div>
+  let publications = [];
 
-  </section>
+  onMount(async () => {
+      try {
+          const response = await fetch('/publications.json');
+          if (response.ok) {
+              publications = await response.json();
+          } else {
+              console.error('Failed to fetch publications:', response.statusText);
+          }
+      } catch (error) {
+          console.error('Error fetching publications:', error);
+      }
+  });
+</script>
+
+<section id="publications">
+  <SectionTitle title="Publication" />
+
+  {#if publications.length > 0}
+      {#each publications as publication}
+          <div class="publication-wrapper">
+              <p class="paper-title">{publication.title}</p>
+              <p class="author-list">
+                {#each publication.authors.split(', ') as author, index (author)}
+                    {#if author === 'Jinrui Wang'}
+                        <span class="author-emphasis">{author}</span>
+                    {:else}
+                        {author}
+                    {/if}
+                    {#if index < publication.authors.split(', ').length - 1}, {/if}
+                {/each}
+            </p>
+            
+              <div class="source">
+                  <p>
+                    <span class="conference-name">{publication.conference.name}</span>
+                    {#if publication.conference.type}
+                        <span class="paper-type"> ({publication.conference.type})</span>
+                    {/if}
+                    {publication.conference.event}, {publication.conference.location}, {publication.conference.year}
+                  </p>
+              </div>
+
+              <div>
+                  {#if publication.links.paper}
+                      <a class="paper-link" href={publication.links.paper} target="_blank">[ paper ]</a>
+                  {/if}
+                  {#if publication.links.github}
+                      <a class="paper-link" href={publication.links.github} target="_blank">[ github ]</a>
+                  {/if}
+                  {#if publication.links.demo}
+                      <a class="paper-link" href={publication.links.demo} target="_blank">[ live demo ]</a>
+                  {/if}
+                  {#if publication.links.website}
+                      <a class="paper-link" href={publication.links.demo} target="_blank">[ website ]</a>
+                  {/if}
+              </div>
+          </div>
+      {/each}
+  {:else}
+      <p>Loading publications...</p>
+  {/if}
+</section>
+
   
   <style>
+    .publication-wrapper {
+      margin-bottom: 30px;
+    }
+
     .source {
       display: flex;
       flex-wrap: wrap; 
@@ -32,12 +84,19 @@
     .source p {
       margin: 0; 
       white-space: nowrap; 
+      margin-bottom: 5px;
     }
 
     .paper-title{
       font-weight: 500;
       font-size: 1.05rem;
+      line-height: 1.2;
       margin-bottom: 8px;
+      color: #396f18;
+    }
+
+    .author-list {
+      margin-bottom: 5px;
     }
 
     .conference-name {
@@ -64,5 +123,6 @@
     .paper-link:hover {
       color: #509A23;
       text-decoration: underline;
+      cursor: pointer;
     }
   </style>

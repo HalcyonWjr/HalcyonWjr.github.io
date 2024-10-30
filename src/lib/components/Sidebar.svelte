@@ -28,8 +28,8 @@
     <a href="mailto:jwang120@ed.ac.uk">
         <i class="fa-regular fa-paper-plane"></i>
     </a>      
-  </div>
-  
+</div>
+
 </div>
   
 
@@ -95,6 +95,16 @@
     .icons-container a:hover {
     color: #509A23;
     }
+
+    @media (max-width: 768px) {
+    nav {
+        display: none; 
+    }
+
+    .icons-container {
+        display: none; 
+    }
+}
 
 
 </style>

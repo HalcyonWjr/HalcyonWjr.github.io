@@ -7,6 +7,14 @@
     <SectionTitle title="Projects" />
 
     <ProjectCard 
+      title="Pieces of Peace: Women and Gender in Peace Agreements" 
+      date="Jun 2024 - VIS Art Program"
+      description="Physicalization of women and gender issues mentioned in the Afghanistan post 2000s intervention process using debossing technique."
+      imageUrl="/peace.png"
+      projectUrl="https://www.designinformatics.org/news/pieces-of-peace-reflection/"
+    />
+
+    <ProjectCard 
       title="Responsible AI Community Network" 
       date="Aug 2023, with Braid"
       description="Large screen network display for visualizing interdisciplinary community at the launch of BRAID: Bridging Responsible AI Divides programme."
