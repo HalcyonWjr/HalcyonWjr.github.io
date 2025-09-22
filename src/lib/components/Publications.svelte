@@ -19,21 +19,29 @@
 </script>
 
 <section id="publications">
-  <SectionTitle title="Publication" />
+  <SectionTitle title="Publications" />
 
   {#if publications.length > 0}
       {#each publications as publication}
           <div class="publication-wrapper">
-              <p class="paper-title">{publication.title}</p>
+              <a
+                class="paper-title"
+                href={publication.links.publisher}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {publication.title}
+              </a>
               <p class="author-list">
                 {#each publication.authors.split(', ') as author, index (author)}
-                    {#if author === 'Jinrui Wang'}
-                        <span class="author-emphasis">{author}</span>
-                    {:else}
-                        {author}
-                    {/if}
-                    {#if index < publication.authors.split(', ').length - 1}, {/if}
+                  {#if author === 'Jinrui Wang'}
+                    <span class="author-emphasis">{author}</span>
+                  {:else}
+                    {author}
+                  {/if}
+                  {#if index < publication.authors.split(', ').length - 1}<span>, </span>{/if}
                 {/each}
+
             </p>
             
               <div class="source">
@@ -77,22 +85,28 @@
       display: flex;
       flex-wrap: wrap; 
       gap: 10px; 
-      text-align: center;
+      text-align: left;
       align-items: center;
     }
 
     .source p {
-      margin: 0; 
-      white-space: nowrap; 
+      margin: 0;
       margin-bottom: 5px;
     }
 
     .paper-title{
       font-weight: 500;
-      font-size: 1.05rem;
-      line-height: 1.2;
+      font-size: 1.1rem;
+      line-height: 1.25rem;
       margin-bottom: 8px;
       color: #396f18;
+      text-decoration: none;
+    }
+
+    .paper-title:hover {
+      color: #509A23; 
+      text-shadow: 2px 2px 6px rgba(80, 154, 35, 0.3);
+      cursor: pointer;
     }
 
     .author-list {

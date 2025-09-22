@@ -5,12 +5,11 @@
     import Publications from './Publications.svelte';
     import Projects from './Projects.svelte';
     import Footer from './Footer.svelte';
-  </script>
 
+  </script>
 
   <div class="container">
     <Sidebar />
-  
     <div class="main-content">
       <Bio />
       <News />

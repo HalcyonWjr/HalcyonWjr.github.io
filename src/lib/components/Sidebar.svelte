@@ -1,15 +1,16 @@
 <script>
-    // Import any necessary sub-components or logic here
-  </script>
+</script>
   
 <div class="sidebar">
-<div>
+<div class="header-container">
     <div class="bio-photo">
         <img src="/jinrui_bio.jpg" alt="bio">
     </div>
-    <p class="name">Jinrui Wang</p>
-    <p class="name-notes">Pronoun is: she/her</p>
-    <p class="name-notes">Pronounced as: Gin-rey</p>
+    <div class="name-container">
+        <p class="name">Jinrui Wang</p>
+        <p class="name-notes">Pronoun is: she/her</p>
+        <p class="name-notes">Pronounced as: Gin-rey</p>
+    </div>
 </div>
 
 <nav>
@@ -25,11 +26,10 @@
     <a href="https://www.linkedin.com/in/jinrui-wang/" target="_blank">
       <i class="fa-brands fa-linkedin-in"></i>
     </a>
-    <a href="mailto:jwang120@ed.ac.uk">
+    <a href="mailto:j.wang@ed.ac.uk">
         <i class="fa-regular fa-paper-plane"></i>
     </a>      
 </div>
-
 </div>
   
 
@@ -49,15 +49,25 @@
         object-fit: cover;
       }
 
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .name-container {
+        text-align: right;
+    }
+
     .name {
         font-family: 'Langar';
         font-size: 1.5rem;
-        text-align: right;
+        /* text-align: right; */
         margin: 20px 0;
     }
 
     .name-notes {
-        text-align: right;
+        /* text-align: right; */
         margin: 0;
         padding: 0;
         font-size: 0.9em;
@@ -96,15 +106,32 @@
     color: #509A23;
     }
 
-    @media (max-width: 768px) {
-    nav {
-        display: none; 
+    @media (max-width: 64rem) {
+        nav {
+            display: none; 
+        }
+
+        .icons-container {
+            display: none; 
+        }
+
+        .bio-photo {
+            width: 150px; 
+            height: 150px;
+        }
+
+        .header-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .name-container {
+            text-align: left;
+            margin-left: 3rem;
+        }
     }
 
-    .icons-container {
-        display: none; 
-    }
-}
 
 
 </style>

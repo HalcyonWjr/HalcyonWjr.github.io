@@ -1,5 +1,22 @@
 [
     {
+        "title": "Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations",
+        "authors": "Valentin Edelsbrunner, Jinrui Wang, Alexis Pister, Tomas Vancisin, Sian Phillips, Min Chen, Benjamin Bach",
+        "conference": {
+          "name": "VIS 25'",
+          "type": "",
+          "event": "IEEE Transactions on Visualization and Computer Graphics. 2025. (IEEE VIS)",
+          "location": "Vienna, Austria",
+          "year": 2025
+        },
+        "links": {
+          "publisher": "https://hal.science/view/index/docid/5199752",
+          "paper": "https://hal.science/hal-05199752v1/document",
+          "website": "https://vis-badges.github.io"
+
+        }
+    },
+    {
         "title": "Pieces of Peace: Women and Gender in Peace Agreements",
         "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
         "conference": {
@@ -10,6 +27,7 @@
           "year": 2024
         },
         "links": {
+          "publisher": "https://ieeexplore.ieee.org/document/10749925",
           "paper": "/long2024peace.pdf"
         }
     },
@@ -25,6 +43,7 @@
           "year": 2024
         },
         "links": {
+          "publisher": "https://ieeexplore.ieee.org/document/10684760",
           "paper": "https://arxiv.org/pdf/2408.07483",
           "website": "https://vis-atlas.github.io"
         }
@@ -41,7 +60,8 @@
         "year": 2023
       },
       "links": {
-        "paper": "https://www.computer.org/csdl/proceedings-article/vis/2023/255700a156/1T3cP4m2E3m",
+        "publisher": "https://ieeexplore.ieee.org/document/10360880",
+        "paper": "/wang2023logs.pdf",
         "github": "https://github.com/HalcyonWjr/Vistorian_Dashboard",
         "demo": "https://halcyonwjr.github.io/Vistorian_Dashboard/"
       }
