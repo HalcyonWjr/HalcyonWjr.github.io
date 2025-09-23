@@ -160,7 +160,7 @@ button:focus {
 
 @media (max-width: 64rem) {
   .container { flex-direction: column; padding: 0 1vw;}
-  .sidebar { margin-left: 0; padding-top: 2vh; align-items: center; }
+  .sidebar { margin-left: 0; padding-top: 2vh; align-items: center; position: static; width: 100%;}
   .main-content { margin: 2vh 0; padding: 10px; }
   .section { margin: 40px 0; }
 }
