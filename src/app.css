@@ -5,6 +5,8 @@ body {
   font-family: 'Inter', 'Langar', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
   /* font-size: 1rem; */
   scroll-behavior: smooth;
 
@@ -85,23 +87,28 @@ section:first-of-type {
 .container {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 
 .sidebar {
-  flex: 0 0 220px;
+  flex: 0 0 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-end; 
-  flex: 1;
+  /* flex: 1; */
   background-color: #fff;
   padding-top: 6vh;
   margin-left: 8vw;
+
+  position: sticky;
+  top: 0;
+  /* height: fit-content; */
 }
 
 .main-content {
-  flex: 3 1 0%; 
+  /* flex: 3 1 0%;  */
+  flex: 1;
   min-width: 0; 
   padding: 20px;
   margin-right: 20vw;

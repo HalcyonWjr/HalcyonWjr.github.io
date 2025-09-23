@@ -22,7 +22,7 @@
 <script context="module">
     export const newsItems = [
         'Sept 25 :: Is the third year starting already?! Time flies🏃‍♀️!',
-        'Aug 25 :: Our paper <a href="https://hal.science/view/index/docid/5199752" target="_blank"> "Visualization Badges: Communicating Design and Provenance through Graphical Labels Alongside Visualizations" </a> is accepted by <span class="venue-text">IEEE VIS 2025</span> with Honorable Mention 🎉!',
+        'Aug 25 :: Our paper on <a href="https://hal.science/view/index/docid/5199752" target="_blank">Visualization Badges</a> is accepted by <span class="venue-text">IEEE VIS 2025</span> with Honorable Mention 🎉!',
         'Aug 25 :: Wow we have two VIS posters! Check these out 👉 <a href="/vis25-poster-atlas.pdf">The Co-Benefits Atlas</a> and <a href="/vis25-poster-peacerep.pdf">Visualizing Peace Transitions</a>',
         'May 25 :: We launched the beta version of <a href="https://ukcobenefitsatlas.net/" target="_blank">The UK Co-Benefits Atlas</a> at ECCI! Amazing work team!',
         'Oct 24 :: I will be one of the student volunteers for <span class="venue-text">IEEE VIS 2024</span>, see you all virtually!',

@@ -4,7 +4,7 @@
   </script>
   
   <section id="projects">
-    <SectionTitle title="Projects" />
+    <SectionTitle title="Design Projects" />
 
     <ProjectCard 
       title="Pieces of Peace: Women and Gender in Peace Agreements" 
