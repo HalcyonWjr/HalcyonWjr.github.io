@@ -116,8 +116,9 @@
     .conference-name {
       border: 1px solid #509A23; 
       border-radius: 5px; 
-      padding: 1px;
+      padding: 2px 4px;
       margin-right: 5px;
+      font-size: 0.75rem;
     }
 
     .author-emphasis {

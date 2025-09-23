@@ -24,7 +24,8 @@
 
   <style>
     .project-container {
-      display: flex; 
+      display: flex;
+      flex-direction: row;
       align-items: center; 
       gap: 20px; 
       margin-bottom: 40px;
@@ -35,7 +36,6 @@
     }
 
     .project-photo img {
-      /* width: 100%;  */
       height: 150px; 
       border: 1px solid black;
     }
@@ -64,5 +64,10 @@
     .project-link:hover {
       color: #509A23;
       text-decoration: underline;
+    }
+
+    @media (max-width: 48rem) {
+      .project-container {flex-direction: column; align-items: flex-start; gap: 15px;}
+      .project-text {margin: 0;}
     }
   </style>

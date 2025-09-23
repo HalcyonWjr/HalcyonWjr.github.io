@@ -21,7 +21,7 @@ p {
   margin: 0;
   padding: 0;
   margin-bottom: 5px;
-  line-height: 1.2rem;
+  line-height: 1.25rem;
 }
 
 p a {
@@ -103,9 +103,42 @@ section:first-of-type {
   word-break: break-word;
 }
 
+button {
+  appearance: none;
+  background-color: rgba(80, 154, 35, 0.05);
+  border: 1px solid rgba(80, 154, 35, 0.85);
+  border-radius: 6px;
+  box-shadow: rgba(80, 154, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  list-style: none;
+  margin: 5px 0;
+  padding: 4px 8px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+button:hover {
+  background-color: rgba(80, 154, 35, 0.1);
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:focus {
+  outline: 1px transparent;
+}
+
 /* Responsive Styles */
-@media (max-width: 64rem) {
-  .container { flex-direction: column; }
+@media (max-width: 48rem) {
+  .container { flex-direction: column; padding: 0 5vw;}
   .sidebar { margin-left: 0; padding-top: 2vh; align-items: center; }
   .main-content { margin: 2vh 0; padding: 10px; }
   .section { margin: 40px 0; }

@@ -106,7 +106,7 @@
     color: #509A23;
     }
 
-    @media (max-width: 64rem) {
+    @media (max-width: 48rem) {
         nav {
             display: none; 
         }
