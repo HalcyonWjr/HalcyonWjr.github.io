@@ -107,31 +107,11 @@
     }
 
     @media (max-width: 48rem) {
-        nav {
-            display: none; 
-        }
-
-        .icons-container {
-            display: none; 
-        }
-
-        .bio-photo {
-            width: 150px; 
-            height: 150px;
-        }
-
-        .header-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .name-container {
-            text-align: left;
-            margin-left: 3rem;
-        }
+        nav {display: none; }
+        .icons-container {display: none;}
+        .bio-photo {width: 150px; height: 150px;}
+        .header-container {display: flex; flex-direction: row; align-items: center;}
+        .name-container {text-align: left; margin-left: 2rem;}
     }
-
-
 
 </style>

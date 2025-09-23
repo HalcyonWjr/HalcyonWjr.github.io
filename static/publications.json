@@ -5,10 +5,11 @@
         "conference": {
           "name": "VIS 25'",
           "type": "",
-          "event": "IEEE Transactions on Visualization and Computer Graphics. 2025. (IEEE VIS)",
+          "event": "IEEE Transactions on Visualization and Computer Graphics. 2025.",
           "location": "Vienna, Austria",
           "year": 2025
         },
+        "honor": "🏆 Best Paper Honorable Mention",
         "links": {
           "publisher": "https://hal.science/view/index/docid/5199752",
           "paper": "https://hal.science/hal-05199752v1/document",
@@ -21,11 +22,12 @@
         "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
         "conference": {
           "name": "VISAP 24'",
-          "type": "Pictorial+Exhibition",
-          "event": "The VIS Arts Program (VISAP)",
+          "type": "",
+          "event": "The VIS Arts Program",
           "location": "Tampa, USA",
           "year": 2024
         },
+        "honor": "",
         "links": {
           "publisher": "https://ieeexplore.ieee.org/document/10749925",
           "paper": "/long2024peace.pdf"
@@ -38,10 +40,11 @@
         "conference": {
           "name": "VIS 24'",
           "type": "",
-          "event": "IEEE Transactions on Visualization and Computer Graphics. 2024. (IEEE VIS)",
+          "event": "IEEE Transactions on Visualization and Computer Graphics. 2024.",
           "location": "Tampa, USA",
           "year": 2024
         },
+        "honor": "",
         "links": {
           "publisher": "https://ieeexplore.ieee.org/document/10684760",
           "paper": "https://arxiv.org/pdf/2408.07483",
@@ -55,10 +58,11 @@
       "conference": {
         "name": "VIS 23'",
         "type": "short paper",
-        "event": "IEEE Visualization and Visual Analytics (VIS)",
+        "event": "IEEE Visualization and Visual Analytics",
         "location": "Melbourne, Australia",
         "year": 2023
       },
+      "honor": "",
       "links": {
         "publisher": "https://ieeexplore.ieee.org/document/10360880",
         "paper": "/wang2023logs.pdf",

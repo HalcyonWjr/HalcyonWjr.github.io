@@ -32,6 +32,7 @@
               >
                 {publication.title}
               </a>
+              
               <p class="author-list">
                 {#each publication.authors.split(', ') as author, index (author)}
                   {#if author === 'Jinrui Wang'}
@@ -47,12 +48,16 @@
               <div class="source">
                   <p>
                     <span class="conference-name">{publication.conference.name}</span>
+                    {publication.conference.event}, 
+                    {publication.conference.location}, 
+                    {publication.conference.year}
                     {#if publication.conference.type}
                         <span class="paper-type"> ({publication.conference.type})</span>
                     {/if}
-                    {publication.conference.event}, {publication.conference.location}, {publication.conference.year}
                   </p>
               </div>
+
+              <p class="paper-honor">{publication.honor}</p>
 
               <div>
                   {#if publication.links.paper}
@@ -90,15 +95,16 @@
     }
 
     .source p {
-      margin: 0;
-      margin-bottom: 5px;
+      margin: 2px 0;
+      align-items: center;
+      flex-wrap: wrap;
+      font-weight: 300; 
     }
 
     .paper-title{
       font-weight: 500;
       font-size: 1.1rem;
-      line-height: 1.25rem;
-      margin-bottom: 8px;
+      line-height: 1.5rem;
       color: #396f18;
       text-decoration: none;
     }
@@ -110,7 +116,11 @@
     }
 
     .author-list {
-      margin-bottom: 5px;
+      margin: 4px 0;
+    }
+
+    .author-emphasis {
+      font-weight: 500;
     }
 
     .conference-name {
@@ -119,14 +129,16 @@
       padding: 2px 4px;
       margin-right: 5px;
       font-size: 0.75rem;
-    }
-
-    .author-emphasis {
-      font-weight: 500;
+      font-weight: 400;
+      align-items: center;
+      height: 100%;  
     }
 
     .paper-type {
       font-weight: 300;
+      display: inline-flex;
+      align-items: center;
+      height: 100%;
     }
 
     .paper-link {
@@ -139,5 +151,10 @@
       color: #509A23;
       text-decoration: underline;
       cursor: pointer;
+    }
+
+    .paper-honor {
+      font-weight: 600;
+      color: #f9a825; 
     }
   </style>

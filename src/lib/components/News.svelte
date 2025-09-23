@@ -8,13 +8,13 @@
     
     {#each newsItems as item, index}
         {#if isCollapsed ? index < 5 : true}
-            <p class="bullet-point">{@html item}</p>
+            <p class="news-item">{@html item}</p>
         {/if}
     {/each}
     
     {#if newsItems.length > 5}
         <button on:click={() => isCollapsed = !isCollapsed}>
-            {isCollapsed ? 'Show More' : 'Show Less'}
+            {isCollapsed ? '↓ Show More ↓' : '↑ Show Less ↑'}
         </button>
     {/if}
 </section>
@@ -34,9 +34,3 @@
         'May 23 :: Sarah Shottler and I won <a href="https://www.cdcs.ed.ac.uk/cdcs-prizes" target="_blank">CDCS Digital Research Prize for Best Data Visualisation</a> 🏆 for visualising Russian-Ukraine conflict with PeaceRep!'
     ];
 </script>
-
-<style>
-
-
-
-</style>
