@@ -5,7 +5,7 @@
         "conference": {
           "name": "VIS 25'",
           "type": "",
-          "event": "IEEE Transactions on Visualization and Computer Graphics. 2025.",
+          "event": "IEEE Transactions on Visualization and Computer Graphics.",
           "location": "Vienna, Austria",
           "year": 2025
         },
@@ -23,7 +23,7 @@
         "conference": {
           "name": "VIS 24'",
           "type": "",
-          "event": "IEEE Transactions on Visualization and Computer Graphics. 2024.",
+          "event": "IEEE Transactions on Visualization and Computer Graphics.",
           "location": "Tampa, USA",
           "year": 2024
         },
@@ -41,7 +41,7 @@
         "conference": {
           "name": "VISAP 24'",
           "type": "",
-          "event": "The VIS Arts Program",
+          "event": "The VIS Arts Program.",
           "location": "Tampa, USA",
           "year": 2024
         },
@@ -58,7 +58,7 @@
       "conference": {
         "name": "VIS 23'",
         "type": "short paper",
-        "event": "IEEE Visualization and Visual Analytics",
+        "event": "IEEE Visualization and Visual Analytics.",
         "location": "Melbourne, Australia",
         "year": 2023
       },

@@ -33,7 +33,7 @@
                 {publication.title}
               </a>
               
-              <p class="author-list">
+              <!-- <p class="author-list">
                 {#each publication.authors.split(', ') as author, index (author)}
                   {#if author === 'Jinrui Wang'}
                     <span class="author-emphasis">{author}</span>
@@ -42,22 +42,32 @@
                   {/if}
                   {#if index < publication.authors.split(', ').length - 1}<span>, </span>{/if}
                 {/each}
-
-            </p>
+              </p> -->
             
               <div class="source">
                   <p>
-                    <span class="conference-name">{publication.conference.name}</span>
-                    {publication.conference.event}, 
-                    {publication.conference.location}, 
-                    {publication.conference.year}
+                    {#each publication.authors.split(',').map(a => a.trim()) as author, index (author)}
+                      {#if author === 'Jinrui Wang'}
+                        <span class="author-emphasis">{author}</span>{index < publication.authors.split(',').length - 1 ? ', ' : ''}
+                      {:else}
+                        {author}{index < publication.authors.split(',').length - 1 ? ', ' : ''}
+                      {/if}
+                    {/each}
+                    .
+
+                    <!-- <span class="conference-name">{publication.conference.name}</span> -->
+                    <span style="font-style: italic;">{publication.conference.event}</span> 
+                    {publication.conference.location}
+                    ({publication.conference.year}).
                     {#if publication.conference.type}
                         <span class="paper-type"> ({publication.conference.type})</span>
                     {/if}
+
+                    <span class="paper-honor">{publication.honor}</span>
+
                   </p>
               </div>
 
-              <p class="paper-honor">{publication.honor}</p>
 
               <div>
                   {#if publication.links.paper}
@@ -105,14 +115,15 @@
       flex-wrap: wrap;
       font-weight: 300;
       font-size: 0.9rem;
-      line-height: 1.1rem;
+      line-height: 1.2rem;
     }
 
     .paper-title{
-      font-weight: 500;
+      font-weight: 600;
       /* font-size: 1rem; */
       /* line-height: 1.2rem; */
       color: #396f18;
+      /* color: black; */
       text-decoration: none;
     }
 
@@ -156,6 +167,7 @@
       color: black;
       text-decoration: none;
       margin-right: 5px;
+      font-size: 0.9rem;
     }
     
     .paper-link:hover {
