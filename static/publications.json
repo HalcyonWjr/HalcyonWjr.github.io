@@ -18,20 +18,36 @@
         }
     },
     {
-        "title": "Pieces of Peace: Women and Gender in Peace Agreements",
-        "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
-        "conference": {
-          "name": "VISAP 24'",
-          "type": "",
-          "event": "The VIS Arts Program",
-          "location": "Tampa, USA",
-          "year": 2024
-        },
-        "honor": "",
-        "links": {
-          "publisher": "https://ieeexplore.ieee.org/document/10749925",
-          "paper": "/long2024peace.pdf"
-        }
+      "title": "Visualizing Peace Transitions: Interactive Visualizations to Support Innovation and Adaptive Management in Peace Processes",
+      "authors": "Tomas Vancisin, Jinrui Wang, Niamh Henry, Sarah Schöttler, Lucy Havens, Tobias Kauer, Sarah Badanjak, Christine Bell, Benjamin Bach",
+      "conference": {
+        "name": "VIS 25'",
+        "type": "poster",
+        "event": "IEEE Visualization and Visual Analytics",
+        "location": "Vienna, Austria",
+        "year": 2025
+      },
+      "honor": "",
+      "links": {
+        "publisher": "",
+        "paper": "/vis25-poster-peacerep.pdf"
+      }
+    },
+    {
+      "title": "The UK Co-Benefits Atlas: An Interactive Visualisation Atlas to Understand the Impacts of Achieving Climate Action Targets",
+      "authors": "Sian Phillips, Jinrui Wang, Alexis Pister, Ruaidhri Higgins-Lavery, Sarah Bisset, Clare Wharmby, Sean Fields, Uta Hinrichs, Andrew Sudmant, Benjamin Bach",
+      "conference": {
+        "name": "VIS 25'",
+        "type": "poster",
+        "event": "IEEE Visualization and Visual Analytics",
+        "location": "Vienna, Austria",
+        "year": 2025
+      },
+      "honor": "",
+      "links": {
+        "publisher": "",
+        "paper": "/vis25-poster-atlas.pdf"
+      }
     },
 
     {
@@ -49,6 +65,23 @@
           "publisher": "https://ieeexplore.ieee.org/document/10684760",
           "paper": "https://arxiv.org/pdf/2408.07483",
           "website": "https://vis-atlas.github.io"
+        }
+    },
+    
+    {
+        "title": "Pieces of Peace: Women and Gender in Peace Agreements",
+        "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
+        "conference": {
+          "name": "VISAP 24'",
+          "type": "",
+          "event": "The VIS Arts Program",
+          "location": "Tampa, USA",
+          "year": 2024
+        },
+        "honor": "",
+        "links": {
+          "publisher": "https://ieeexplore.ieee.org/document/10749925",
+          "paper": "/long2024peace.pdf"
         }
     },
 

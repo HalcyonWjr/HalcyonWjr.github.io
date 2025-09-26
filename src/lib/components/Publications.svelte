@@ -82,6 +82,11 @@
 
   
   <style>
+    #publications {
+      font-size: 1rem;
+      line-height: 1.2rem;
+    }
+
     .publication-wrapper {
       margin-bottom: 30px;
     }
@@ -98,13 +103,15 @@
       margin: 2px 0;
       align-items: center;
       flex-wrap: wrap;
-      font-weight: 300; 
+      font-weight: 300;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
     }
 
     .paper-title{
       font-weight: 500;
-      font-size: 1.1rem;
-      line-height: 1.5rem;
+      /* font-size: 1rem; */
+      /* line-height: 1.2rem; */
       color: #396f18;
       text-decoration: none;
     }
@@ -117,10 +124,14 @@
 
     .author-list {
       margin: 4px 0;
+      font-size: 0.9rem;
+      line-height: 1.1rem;
     }
 
     .author-emphasis {
-      font-weight: 500;
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-style:wavy;
     }
 
     .conference-name {
