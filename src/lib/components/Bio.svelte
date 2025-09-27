@@ -13,10 +13,10 @@
         <!-- My research focuses on visualization atlases as an emerging form of open data visualizations and effective design of public data representation. I'm passionate about practical project in data exploration and interactive visualization design. -->
     </p>
 
-    <p class="prior">My ongoing projects👩🏻‍💻:</p>
+    <!-- <p class="prior">My ongoing projects👩🏻‍💻:</p> -->
 
-    <p class="bullet-point"> Designing a visualization atlas on the social co-benefits of climate mitigation datasets with <a href="https://edinburghcentre.org" target="_blank" class="med-link">Edinburgh Climate Change Insitute</a>.</p>
-    <p class="bullet-point"> Visualizing peace transistion data with <a href="https://peacerep.org" target="_blank" class="med-link">PeaceRep</a>, Edinburgh Law School.</p>
+    <!-- <p class="bullet-point"> Designing a visualization atlas on the social co-benefits of climate mitigation datasets with <a href="https://edinburghcentre.org" target="_blank" class="med-link">Edinburgh Climate Change Insitute</a>.</p> -->
+    <!-- <p class="bullet-point"> Visualizing peace transistion data with <a href="https://peacerep.org" target="_blank" class="med-link">PeaceRep</a>, Edinburgh Law School.</p> -->
 
 </section>
 
