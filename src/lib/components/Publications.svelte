@@ -80,7 +80,7 @@
                       <a class="paper-link" href={publication.links.demo} target="_blank">[ live demo ]</a>
                   {/if}
                   {#if publication.links.website}
-                      <a class="paper-link" href={publication.links.demo} target="_blank">[ website ]</a>
+                      <a class="paper-link" href={publication.links.website} target="_blank">[ website ]</a>
                   {/if}
               </div>
           </div>
