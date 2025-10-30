@@ -17,6 +17,41 @@
 
         }
     },
+
+
+        {
+      "title": "Visualizing Peace Transitions: Interactive Visualizations to Support Innovation and Adaptive Management in Peace Processes",
+      "authors": "Tomas Vancisin, Jinrui Wang, Niamh Henry, Sarah Schöttler, Lucy Havens, Tobias Kauer, Sarah Badanjak, Christine Bell, Benjamin Bach",
+      "conference": {
+        "name": "VIS 25'",
+        "type": "poster",
+        "event": "IEEE Visualization and Visual Analytics",
+        "location": "Vienna, Austria",
+        "year": 2025
+      },
+      "honor": "",
+      "links": {
+        "publisher": "",
+        "paper": "/vis25-poster-peacerep.pdf"
+      }
+    },
+    {
+      "title": "The UK Co-Benefits Atlas: An Interactive Visualisation Atlas to Understand the Impacts of Achieving Climate Action Targets",
+      "authors": "Sian Phillips, Jinrui Wang, Alexis Pister, Ruaidhri Higgins-Lavery, Sarah Bisset, Clare Wharmby, Sean Fields, Uta Hinrichs, Andrew Sudmant, Benjamin Bach",
+      "conference": {
+        "name": "VIS 25'",
+        "type": "poster",
+        "event": "IEEE Visualization and Visual Analytics",
+        "location": "Vienna, Austria",
+        "year": 2025
+      },
+      "honor": "",
+      "links": {
+        "publisher": "",
+        "paper": "/vis25-poster-atlas.pdf"
+      }
+    },
+
     {
         "title": "Visualization Atlases: Explaining and Exploring Complex Topics through Data, Visualization, and Narration",
         "authors": "Jinrui Wang, Xinhuan Shu, Benjamin Bach, Uta Hinrichs",
@@ -34,7 +69,7 @@
           "website": "https://vis-atlas.github.io"
         }
     },
-    
+
     {
         "title": "Pieces of Peace: Women and Gender in Peace Agreements",
         "authors": "Jenny Long, Jinrui Wang, Tomas Vancisin, Laura Wise, Xinhuan Shu, Tara Capel, Uta Hinrichs",
@@ -51,6 +86,8 @@
           "paper": "/long2024peace.pdf"
         }
     },
+
+    
 
     {
       "title": "Show Me My Users: A Dashboard Visualizing User Interaction Logs",
