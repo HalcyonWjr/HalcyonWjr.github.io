@@ -8,7 +8,7 @@
       
     <p>Hi, I’m Jinrui Wang (王金睿). </p>
     <p>
-        I’m entering my third year of PhD studies supervised by <a class="med-link" href="http://www.utahinrichs.de/" target="_blank">Dr. Uta Hinrichs</a> and <a class="med-link" href="https://vishub.net/bach" target="_blank">Dr. Benjamin Bach</a> at <a class="med-link" href="https://vishub.net" target="_blank">Visual+Interactive Lab</a>, The University of Edinburgh. Before that, I completed my MSc in Design Informatics (with distinction) at the University of Edinburgh (2022) and BEcon at University of International Business and Economics in Beijing (2020). My PhD research focuses on visualization atlases as an emerging form of visualization for communicating complex datasets to wide range of audiences. I'm passionate about research through practical designs in interactive data exploration.
+        I’m a third year PhD student supervised by <a class="med-link" href="http://www.utahinrichs.de/" target="_blank">Dr. Uta Hinrichs</a> and <a class="med-link" href="https://vishub.net/bach" target="_blank">Dr. Benjamin Bach</a> at <a class="med-link" href="https://vishub.net" target="_blank">Visual+Interactive Lab</a>, The University of Edinburgh. Before that, I completed my MSc in Design Informatics (with distinction) at the University of Edinburgh (2022) and BEcon at University of International Business and Economics in Beijing (2020). My PhD research focuses on visualization atlases as an emerging form of visualization for communicating complex datasets to wide range of audiences. I'm passionate about research through practical designs in interactive data exploration.
     </p>
 
     <p class="prior">My ongoing projects👩🏻‍💻:</p>
