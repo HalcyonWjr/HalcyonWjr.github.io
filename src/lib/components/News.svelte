@@ -21,6 +21,7 @@
 
 <script context="module">
     export const newsItems = [
+        'Oct 25 :: I am visiting <a href="https://bivwac.fr">Bivwac</a> for two month🇫🇷.', 
         'Oct 25 :: I am one of the student volunteers for <span class="venue-text">IEEE VIS 2025</span>. See you all in Vienna!',
         'Sept 25 :: Is the third year starting already?! Time flies🏃‍♀️!',
         'Aug 25 :: Our paper on <a href="https://hal.science/view/index/docid/5199752" target="_blank">Visualization Badges</a> is accepted by <span class="venue-text">IEEE VIS 2025</span> with Honorable Mention 🎉!',
