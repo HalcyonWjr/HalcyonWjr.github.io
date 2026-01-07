@@ -8,6 +8,11 @@
 
   </script>
 
+<svelte:head>
+    <title>Jinrui Wang</title> 
+</svelte:head>
+
+
   <div class="container">
     <Sidebar />
     <div class="main-content">
